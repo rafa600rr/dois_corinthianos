@@ -1,0 +1,219 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'fontlogo';
+  src: url("../_fonts/ARLRDBD.ttf");
+}
+
+p.beber-nao-dirija{
+	display: block;
+	float: right;
+	margin-top: -30px;
+	font-family: fontlogo1, sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	text-shadow: 2px 2px 2px #000;
+	color: red;
+	margin-bottom: 0px;
+}
+
+figure#logo{
+	width: 300px;
+	display: block;
+	float: left;
+	margin-top: -10px;
+}
+
+figure#logo img{
+	width: 300px;
+}
+
+h1#titulo{
+	clear: both;
+	color: #000;
+	font-family: fontlogo, sans-serif;
+	background-color: #999;
+	padding: 10px;
+	text-align: left;
+	text-decoration: none;
+	border-radius: 5px;
+	text-transform: capitalize;
+	font-size: 14pt;
+}
+
+figure#disribicao-dois-corinthiano {
+  background-color: #F2EDED;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 500px;
+  margin-left: 350px;
+}
+
+figure img#distribuicao{
+	width: 450px;
+	margin-top: 20px;
+}
+
+figure#familia-dois-corinthiano {
+  background-color: #F2EDED;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 350px;
+  float: right;
+}
+
+figure img#familia{
+	width: 300px;
+	margin-top: 20px;
+}
+
+figcaption{
+	font-family: fontlogo1, sans-serif;
+	font-size: 12px;
+	padding: 5px;
+}
+
+h1.titulo-historia{
+	font-family: fontlogo, sans-serif;
+	font-size: 24px;
+	color: #666;
+	text-align: left;
+	text-transform: uppercase;
+	border-bottom:  1px solid #000;
+}
+
+p.historia{
+	font-family: fontlogo, sans-serif;
+	text-indent: 30px;
+	text-align: justify;
+	margin: 10px;
+}
+
+section div#lista-diferenciais{
+	font-family: fontlogo, sans-serif;
+	color: #333;
+}
+
+h1.compre{
+	color: #00F;
+	background-color: #CCC;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: fontlogo1, sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	margin: 5px;
+}
+/*inicio do abum de fotos*/
+ul#album-de-fotos{
+	width: 1100px;
+	margin: 0px auto;
+	padding: 10px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album-de-fotos li{
+	float: left;
+	width: 125px;
+	height: 125px;
+	margin: 10px;
+	border: 5px solid #FFF;
+	background-color: #FFF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+	-webkit-transition: all 0.4s ease-in;
+}
+
+ul#album-de-fotos li span{
+	opacity: 0;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.3);
+	text-shadow: 1px 1px 1px #000;
+	line-height: 221px;
+	font-size: 9px;
+	padding: 5px;
+}
+
+ul#album-de-fotos li:hover{
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-de-fotos li:hover span{
+	opacity: 1;
+}
+
+ul#album-de-fotos li#foto-01{
+	background: url(../_imagens/img7.jpg) no-repeat;
+	background-position: center;
+	background-size: 480px 480px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-01:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}
+
+ul#album-de-fotos li#foto-02{
+	background: url(../_imagens/img8.jpg) no-repeat;
+    background-position: center;
+	background-size: 682px 682px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-02:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}
+
+ul#album-de-fotos li#foto-03{
+	background: url(../_imagens/img9.jpg) no-repeat;
+	background-position: center;
+	background-size: 640px 640px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-03:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}
+
+ul#album-de-fotos li#foto-04{
+	background: url(../_imagens/img11.jpg) no-repeat;
+	background-position: center;
+	background-size: 720px 720px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-04:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}
+
+ul#album-de-fotos li#foto-05{
+	background: url(../_imagens/img12.jpg) no-repeat;
+	background-position: center;
+	background-size: 600px 600px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-05:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}
+
+ul#album-de-fotos li#foto-06{
+	background: url(../_imagens/img13.jpg) no-repeat;
+	background-position: center;
+	background-size: 600px 600px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-06:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}
+
+ul#album-de-fotos li#foto-07{
+	background: url(../_imagens/img14.jpg) no-repeat;
+	background-position: center;
+	background-size: 600px 600px;
+	background-color: #FFF;
+}
+ul#album-de-fotos li#foto-07:hover{
+	background-position: 0px 0px;
+	background-size: 125px 125px;
+}

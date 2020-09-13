@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@font-face{
+  font-family: 'fontlogo';
+  src: url("../_fonts/ARLRDBD.ttf");
+}
+
+@font-face{  
+  font-family: 'fontlogo1';
+  src: url("../_fonts/yearsupplyoffairycakes.ttf");
+}
+
+body{  
+  background-color: rgba(0,0,0,1);
+  color: rgba(0,0,0,1);
+  font-family: "arial", "sans-serif";
+}
+
+div#interface{
+  width: 1200px;
+  background-color: #FFF;
+  margin: -10px auto 0px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(255,255,255,1);
+}
+
+header#cabecalho{
+	border-bottom: 80px #000 solid;
+	height: 300px;
+	border-radius: 10px;
+}
+
+header#cabecalho img#icone{
+  position: relative;
+  top: -25px;
+  left: 5px;
+}
+
+/*inicio da configuracao do menu d busca*/
+	#divBusca{
+		background-color: #ddd;
+		border: solid 2px #999;
+		border-radius: 10px;
+		width: 300px;
+		height: 32px;
+		position: relative;
+        top: -81px;
+        left: 175px;
+	}
+
+	#q{
+		float: left;
+		background-color: transparent;
+		padding-left: 5px;	
+		font-size: 18px;
+		border: none;
+		height: 32px;
+		width: 191px;
+	}
+
+	#btnBusca{
+		border: none;
+		float: right;
+		height: 32px;
+		border-radius: 0 7px 7px 0;
+		width: 60px;
+		font-weight: bold;
+		background: #999;
+	}
+
+	#divBusca img{
+		float: left;
+	}
+/*fim da configuracao do menu d busca */
+
+section nav#menu-principal h1{
+  display: none;
+}
+
+section nav#menu-principal ul {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  position: relative;
+  top: -140px;
+  left: 650px;
+}
+
+section nav#menu-principal li{
+  display: inline-block;
+  margin: 2px;
+  padding: 8px;
+  background-color: #000;
+  border-radius: 5px;
+  transition: background-color 1s;
+  font-family: fontlogo1, sans-serif;
+}
+
+section nav#menu-principal a{
+  text-decoration: none;
+  color: #fff;
+}
+
+section nav#menu-principal li:hover{
+  background-color: #ddd;
+}
+
+section nav#menu-principal a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+
+/*inicio do rodape*/
+footer section div#redes-sociais h4{
+  font-family: fontlogo, sans-serif; 
+  text-transform: uppercase;
+}
+
+footer section div#redes-sociais img{
+  width: 40px;
+}
+
+footer section div#redes-sociais ul{
+  list-style: none;
+  float: left;
+  margin-right: 120px;
+}
+
+footer section div#redes-sociais li{
+  display: inline-block;
+}
+
+footer section div#redes-sociais li:hover{
+	opacity: 0.5;
+}
+
+footer p.informacoes{
+  font-family: fontlogo, sans-serif; 
+  font-size: 8pt;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+footer div#formas-de-pagamento img{
+	width: 40px;
+}
+
+footer section div#formas-de-pagamento h4{
+  font-family: fontlogo, sans-serif; 
+  text-transform: uppercase;
+}
+
+footer section div#formas-de-pagamento ul{
+  list-style: none;
+  float: right;
+  margin-right: 30px;
+}
+  
+
+footer section div#formas-de-pagamento li{
+  display: inline-block;
+}
+
+footer section div#formas-de-pagamento li:hover{
+	opacity: 0.5;
+}
+
+footer{
+	clear: both;
+	background-color: rgba(0,0,0,1);
+	border-radius: 5px;
+	padding: 5px;
+	width: 1185px;
+	height: 150px;
+	margin-top: 30px;
+	color: #FFF;
+}

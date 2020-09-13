@@ -1,0 +1,35 @@
+//create a global html5 options object
+window.html5 = {
+  'elements': 'mark section customelement' 
+};
+
+//change the html5shiv options object 
+window.html5.elements = 'mark section customelement';
+//and re-invoke the `shivDocument` method
+html5.shivDocument(document);
+
+//create a global html5 options object
+window.html5 = {
+    'shivCSS': false
+};
+
+//create a global html5 options object
+window.html5 = {
+    'shivMethods': false
+};
+
+//change the html5shiv options object 
+window.html5.shivMethods = false;
+
+//extend list of elements to shiv
+html5.addElements('element content');
+
+var container = html5.createElement('div');
+//container is shived so we can add HTML5 elements using `innerHTML`
+container.innerHTML = '<section>This is a section</section>';
+
+var fragment = html5.createDocumentFragment();
+var container = document.createElement('div');
+fragment.appendChild(container);
+//fragment is shived so we can add HTML5 elements using `innerHTML`
+container.innerHTML = '<section>This is a section</section>';

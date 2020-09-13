@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+aside#lateral{
+	margin-top: -11px;
+	width: 230px;
+	display: block;
+	float: right;
+}
+
+aside#lateral-1{
+	width: 220px;
+	display: block;
+	float: right;
+}
+
+section#lateral-2{
+	width: 930px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	border-right: 2px solid rgba(0,0,0,.6); 
+}
+
+section nav#menu-bebidas-com-alcool h1{
+  border-radius: 3px;
+  color: #FFF;
+  padding: 6px;
+  text-transform: uppercase;
+  background-color: #666;
+  margin: 0px;
+  width: 194px;
+  margin-top: 0px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+section nav#menu-bebidas-com-alcool ul{
+  list-style: none;
+  text-transform: uppercase;
+  background-color: #666;
+  display: block;
+  width: 200px;
+  padding: 3px;
+  border-radius: 3px;
+  color: #FFF;
+}
+
+section nav#menu-bebidas-com-alcool h3{
+	padding: 0px;
+	text-align: center;
+}
+
+section nav#menu-bebidas-com-alcool li{
+  background-color: #FFF;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 2px;
+  font-family: fontlogo, sans-serif;
+  transition: background-color 0.5s;
+}
+
+section nav#menu-bebidas-com-alcool a{
+  text-decoration: none;
+  color: #000;
+}
+
+section nav#menu-bebidas-com-alcool a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+section nav#menu-bebidas-com-alcool li:hover{
+  background-color: #ccc;
+}
+
+section nav#menu-bebidas-sem-alcool ul{
+  list-style: none;
+  text-transform: uppercase;
+  background-color: #666;
+  display: block;
+  width: 200px;
+  padding: 3px;
+  border-radius: 3px;
+  color: #FFF;
+}
+
+section nav#menu-bebidas-sem-alcool h3{
+	padding: 0px;
+	text-align: center;
+}
+
+section nav#menu-bebidas-sem-alcool li{
+  background-color: #FFF;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 2px;
+  font-family: fontlogo, sans-serif;
+  transition: background-color 0.5s;
+}
+
+section nav#menu-bebidas-sem-alcool a{
+  text-decoration: none;
+  color: #000;
+}
+
+section nav#menu-bebidas-sem-alcool a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+section nav#menu-bebidas-sem-alcool li:hover{
+  background-color: #ccc;
+}
+
+figure.bebidas{
+  width: 150px;
+	display: block;
+  float: left;
+  padding: 5px;
+	background-color: #FFF;
+	margin: 11px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 9px rgba(0,0,0,.5);
+}
+
+figure.bebidas img{
+	width: 100%;
+	height: 100%;
+}
+
+figure.bebidas figcaption{
+	text-align: center;
+	font-family: fontlogo, sans-serif;
+	padding: 6px;
+}

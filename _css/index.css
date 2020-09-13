@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+div#interface2{
+  width: 1200px;
+  background-color: #FFF;
+  margin: 20px auto 0px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(255,255,255,1);
+}
+
+section#mudar-img{
+	width: 730px;
+	display: block;
+	float: left;
+	margin-top: -10px;
+}
+
+h1#sobre-a-lei-seca {
+	clear: both;
+	font-family: fontlogo, sans-serif;
+	background-color: #666;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+
+p.txt{
+	text-indent: 20px;
+	font-family: fontlogo, sans-serif;
+	text-align: justify;
+	color: #333;
+	margin: 0px 20px;
+}
+
+h2#sobre-artigo-lei-seca{
+	font-family: fontlogo, sans-serif;
+	background-color: #666;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+
+div#artigo-lei-seca{
+	width: 1000px;
+	margin: 0px auto 20px auto;
+	border-left: 5px solid #999;
+}
+
+div#lei-seca li{
+	font-family: fontlogo, sans-serif;
+	color: #333;
+	list-style: none;
+}
+
+div#acidentes-1 img.acidentes{
+	width: 350px;
+	float: left;
+	margin: auto 6px auto 6px;
+}
+
+div#acidentes-1{
+	margin: auto;
+	width: 1180px;
+	height: 300px;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+p.txt-1{
+	font-family: fontlogo, sans-serif;
+	text-align: justify;
+	color: #333;
+	margin: 5px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel='icon' type="image/png" href="_imagens/escudo-3.png"/>
+  <title>Dois Corinthianos </title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" typt="text/css" href="_css/estilo.css"/>
+  <link rel="stylesheet" typt="text/css" href="_css/precos.css"/>
+  <script type="text/javascript" language="javascript" src="_javascript/funcoes.js"></script>
+</head>
+<body>
+<div id="interface">
+
+<header id="cabecalho">
+
+<img src="_imagens/escudo-4.png" width="1200" height="250"/>
+<img src="_imagens/cifrao-1.png" id="icone"/>
+
+<section>
+<div id="divBusca">
+      <form action="http://www.google.com.br/search" id="form-busca">
+		<img src="_imagens/search3.png" alt="Buscar..."/>
+		<input type="search" name="q" id="q" placeholder="Buscar..." onFocus="if(this.value=='Escreva aqui')this.value=''; " />
+		<button id="btnBusca">Buscar</button>
+      </form>
+</div>
+</section>
+
+<section>
+<nav id="menu-principal">
+  <ul>
+    <h1 id="h1-principal">Menu Principal</h1>
+      <li onMouseOver="mudaFoto('_imagens/home.png')" onMouseOut="mudaFoto('_imagens/cifrao-1.png')"><a href="index.html">Home</a></li>
+      <li onMouseOver="mudaFoto('_imagens/cifrao-1.png')" onMouseOut="mudaFoto('_imagens/cifrao-1.png')"> <a href="precos.html">preços</a></li>
+      <li onMouseOver="mudaFoto('_imagens/drink-1.png')" onMouseOut="mudaFoto('_imagens/cifrao-1.png')"><a href="drinks.html">drinks</a></li>
+      <li onMouseOver="mudaFoto('_imagens/sobre.png')" onMouseOut="mudaFoto('_imagens/cifrao-1.png')"><a href="sobre-nos.html">Sobre Nós</a></li>
+      <li onMouseOver="mudaFoto('_imagens/ajuda.png')" onMouseOut="mudaFoto('_imagens/cifrao-1.png')"><a href="ajuda.html">Ajuda</a></li>
+ </ul>
+</nav>
+</section>
+</header>
+
+
+
+<section>
+  <table id="tabela-de-precos">
+  <caption>preço das cervejas</caption>
+      <tr><td class="ct">cerveja</td><td class="ct">lata 169 ML</td><td class="ct">lata 350 ML</td><td class="ct">garrafa 600 ML</td><td class="ct">litão 1L</td><td class="ct">caixa 12 UNIDADES</td><td class="ct">caixa 15 UNIDADES</td></tr>
+      
+      <tr><td class="ce">skol</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+      
+      <tr><td class="ce">kaiser</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+      
+      <tr><td class="ce">skin</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+      
+      <tr><td class="ce">brhama</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+      
+      <tr><td class="ce">itaipava</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+      
+      <tr><td class="ce">burguesinha</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+      
+      <tr><td class="ce">hainiquen</td><td class="cd">R$ 1,25 </td><td class="cd">R$ 2,50</td><td class="cd">R$ 4,50</td><td class="cd">R$ 6,50</td><td class="cd">R$ 22,50</td><td class="cd">R$ 22,50</td></tr>
+  </table>
+</section>
+
+
+
+
+
+
+<section id="tabela-s">
+  <table id="tabela-de-precos">
+  <caption>preços das nossas bebidas</caption>
+      <tr><td class="ct">bebidas</td><td class="ct">marca</td><td class="ct">tamanho</td><td class="ct">preços</td></tr>
+      <tr><td class="ce" rowspan="4">vodka</td><td class="cd">ice</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">askov</td class="cd"><td class="cd">800 ml</td><td class="cd">2,50 R$</td></tr>
+      <tr><td class="cd">frutov</td><td class="cd">800 ml</td><td class="cd">2,50 R$</td></tr>
+      <tr><td class="cd">askov</td><td class="cd">800 ml</td><td class="cd">2,50 R$</td></tr>
+      <tr><td class="ce" rowspan="4">wyski</td class="cd"><td class="cd">absouluty</td class="cd"><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">black label</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">red label</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">bacardi</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="ce" rowspan="3">pinga</td><td class="cd">51</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">velho barreiro</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">oliveirinha</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="ce" rowspan="3">conhaque</td><td class="cd">velho barreiro</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">presidente</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+      <tr><td class="cd">contreri</td><td class="cd">300 ml<td class="cd">3,50 R$</td></tr>
+  </table>
+</section>
+
+
+
+
+
+
+<footer>
+
+<section>
+  <div id="formas-de-pagamento">
+   <ul>
+   <h4>formas de pagamento</h4>
+    <li><img src="_imagens/visa.png"/></li>
+    <li><img src="_imagens/mastercard.png"/></li>
+    <li><img src="_imagens/amex.png"/></li>
+    <li><img src="_imagens/din.png"/></li>
+   </ul>
+  </div>
+</section>
+
+<section>
+  <div id="redes-sociais">
+   <ul>
+   <h4>Siga-nos nas redes sociais</h4>
+    <li><a href=""><img src="_imagens/face.png"/></a></li>
+    <li><a href=""><img src="_imagens/twitter.png"/></a></li>
+    <li><a href=""><img src="_imagens/insta.png"/></a></li>
+   </ul>
+  </div>
+</section>
+
+<p class="informacoes">&copy; COPYRIGHT 2016 TODOS OS DIREITOS RESERVADOS<br/>
+DOIS CORINTHIANOS COMÉRCIO VAREJISTA - CNPJ 14.058.038.0001.8</br>
+CEP 85-270-000 - PALMITAL - PARANÁ/PR </p>
+
+</footer>
+</div>
+</body>
+</html>

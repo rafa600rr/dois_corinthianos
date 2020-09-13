@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel='icon' type="image/png" href="_imagens/escudo-3.png"/>
+  <title>Dois Corinthianos </title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" typt="text/css" href="_css/estilo.css"/>
+  <link rel="stylesheet" typt="text/css" href="_css/index.css"/>
+  <link rel="stylesheet" typt="text/css" href="_css/bebidas.css"/>
+  <script type="text/javascript" language="javascript" src="_javascript/funcoes.js"></script>
+  <script type="text/javascript" language="javascript" src="_javascript/mudarimg.js"></script>
+
+</head>
+<body>
+<div id="interface">
+
+   <!--cabecaçalo da pagina-->
+<header id="cabecalho">
+
+<img src="_imagens/escudo-4.png" width="1200" height="250"/>
+<img src="_imagens/beer.png" id="icone"/>
+
+<!--caixa de busca-->
+<section>
+<div id="divBusca">
+      <form action="http://www.google.com.br/search" id="form-busca">
+		<img src="_imagens/search3.png" alt="Buscar..."/>
+		<input type="search" name="q" id="q" placeholder="Buscar..." onFocus="if(this.value=='Escreva aqui')this.value=''; " />
+		<button id="btnBusca">Buscar</button>
+      </form>
+</div>
+</section>
+<!--fim da caixa de busca-->
+
+
+<!--sesao para mudar a imagem do menu-->
+<section>
+<nav id="menu-principal">
+  <ul>
+    <h1 id="h1-principal">Menu Principal</h1>
+      <li onMouseOver="mudaFoto('_imagens/home.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="index.html">Home</a></li>
+      <li onMouseOver="mudaFoto('_imagens/cifrao-1.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="precos.html">preços</a></li>
+      <li onMouseOver="mudaFoto('_imagens/drink-1.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="drinks.html">drinks</a></li>
+      <li onMouseOver="mudaFoto('_imagens/sobre.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="sobre-nos.html">Sobre Nós</a></li>
+      <li onMouseOver="mudaFoto('_imagens/ajuda.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="ajuda.html">Ajuda</a></li>
+ </ul>
+</nav>
+</section>
+
+</header>
+<!--fim do cabecalho e da sesao de imagem-->
+
+
+<section id="mudar-img">
+  <div>
+   <table cellspacing="0" cellpadding="0" border="0" style="border-top:0px; table-layout:fixed;  background:url(pasta/img1.jpg) #EEEEEE">
+   <tr>
+   <td width="270" height="70" align="left" nowrap style="text-align:center"><img width="700" height="450" name="imgapoio[0][0]" src="pasta/img2.jpg" border="0" alt="" ></td>
+   </tr>
+   </table>
+  </div>
+</section>
+
+<aside id="lateral">
+<section>
+<nav id="menu-bebidas-com-alcool">
+   <h1>Menu de bebidas</h1>
+<ul>  
+   <h3>Com álcool</h3>
+   <li><a href="vodka.html"><strong>Vodka</strong></a></li>
+   <li><a href="Wisky.html"><strong>Wisky</strong></a></li>
+   <li><a href="Cerveja.html"><strong>Cerveja</strong></a></li>
+   <li><a href="Pinga.html"><strong>Pinga</strong></a></li>
+   <li><a href="Conhaque.html"><strong>Conhaque</strong></a></li>
+</ul>
+</nav>
+</section>
+
+<section>
+<nav id="menu-bebidas-sem-alcool">
+<ul>
+ <h3>Sem álcool</h3>
+<li><a href="energetico.html"><strong>Energético</strong></a></li>
+<li><a href="refrigerante.html"><strong>Refrigerante</strong></a></li>
+<li><a href="agua.html"><strong>Água</strong></a></li>
+</ul>
+</nav>
+</section>
+</aside>
+
+<!--historia da vodka-->
+<h1 id="sobre-a-lei-seca">uma história sobre a vodka</h1>
+
+
+<p class="txt"> Como muitos já sabem, a vodca -ou vodka- é a bebida nacional da Rússia.</p>
+
+<p class="txt">A história da vodka começa no início do século XIV, quando os mercadores italianos de Genova estavam cruzando as fronteiras russas. Isso era para estabelecer relações com a Russia e outros países do leste europeu. Nessa época a dinastia Ivanovich (ou Donskoy) liderava o império russo. Ele tinha a honra de receber vários presentes dos mercadores italianos. Entre esses presentes havia bebidas alcólicas (24% de álcool) feitas de uva, conhecidas como grappa.</p>
+<p class="txt">Logo se tornou uma bebida nobre, disponível somente para o círrculo interno do czar e os oficiais da igreja.</p>
+
+<p class="txt">Somente em 1533 o czar decidiu dividir a bebida com a população mais humilde e abriu a primeira Taverna Real. Lá as pessoas mais simples podiam experimentar a bebida sagrada. Somente nessa época o nome foi finalizado, derivando da palavra russa “voda“  (água), os russos inventaram a palavra “vodka“, que significa “pequena água”.</p>
+
+<p class="txt">Em 1814 a vodka foi apresentada ao oeste europeu por Napoleão. Ele teve sucesso na conquista da maior parte da europa e depois da Russia. Ele foi o primeiro e único general estrangeiro que conseguiu conquistar Moscou. Devido ao inverno agressivo, seu exército perdeu a maior parte da sua força e ele foi forçado a recuar. Claro que ele trouxe alguns dos mais valiosos segredos russos de volta com ele para mostrá-los ao oeste europeu. Um deles era a fabricação da vodka.</p>
+
+<!--paragrafo sobre curiosidades-->
+<h2 id="sobre-artigo-lei-seca">curiosidade</h2>
+
+<p class="txt">Durante a 1ª e 2ª Guerra Mundial, a vodka também foi usada como antisséptico para a limpeza de feridas e de armas, além de ter sido usada como “estimulante” para os soldados soviéticos. A vodka diminui os limites morais para a luta e controla o nível de adrenalina no sangue. Bebidas alcóolicas diminuem a concentração de adrenalina no sangue, dando um maior “controle” durante as batalhas. 100ml de vodka por soldados russo era a “ração oficial” para um dia de Guerra. Cientificamente falando, 100ml de vodka contém até 250kcal. Essas calorias são justamente o suficiente para o corpo humano sobreviver para mais um dia.</p>
+
+<!--paragrafo sobre a fabricacao-->
+<h2 id="sobre-artigo-lei-seca">fabricação</h2>
+<p class="txt">A vodca é um destilado obtido a partir da fermentação de produtos como arroz, cevada, milho, trigo, centeio, ervas, figos ou batatas. Cada uma dessas matérias primas confere à bebida sabor e qualidade diferentes, variando a fórmula de acordo com a região onde é produzida. Popularmente, a vodca tem 40% de teor alcoólico, mas a sua graduação pode variar entre os 35 e os 60% sendo acrescido de água local, o que lhe diferencia também.</p>
+
+<p class="txt">O processo de fabricação da vodca é o mesmo que o do uísque, mas enquanto que este é destilado a baixas temperaturas, o que dá o sabor a cereais, a vodca é destilada a altas temperaturas e depois submetida a filtragens químicas para neutralizar os aromas dos cereais, tendo também como diferencial a água agregada à produção.</p>
+
+
+<p class="txt">Informações retiradas do site TUDO PARA HOMENS:<a href="https://urless.in/ZWOOl" target="_blank">https://urless.in/ZWOOl</a></p><br/>
+
+
+<h2 id="sobre-artigo-lei-seca">tipos de vodkas</h2>
+<!--tipos de vodkas-->
+
+<!--lista do tipo de vodkas-->
+<div id="lei-seca">
+
+    <li>
+      <ul>Ocidental – prima pela pureza e claridade, possuindo aroma neutro e um sabor de álcool limpo combinado à suavidade. As técnicas de produção levaram a uma vodca com mínimas quantidades de resíduos aromáticos e de sabor;</ul>
+      <ul>Polonesa – é caracterizada pela pureza, mas cria uma vodca de sabor e aroma mais acentuados. Possui um discreto aroma adocicado e um paladar suave, onde o sabor adocicado demora a desaparecer. São ligeiramente mais oleosas;</ul>
+      <ul>Russa – bebidas muito suaves de sabor marcante e agradável, marcado por uma sensação de queima depois de ingeridas.</ul>
+    </li>
+
+</div>
+
+<!--informacoes sobre os tipos de vodka-->
+<div id="acidentes-1">
+<figure>
+   <img src="_imagens/vodka1.jpg" class="acidentes"/>
+</figure>
+
+<figure>
+   <img src="_imagens/vodka2.jpg" class="acidentes"/>
+</figure>
+
+<figure>
+   <img src="_imagens/vodka3.jpg" class="acidentes"/>
+</figure>
+<p class="txt-1">Imagens retiradas da internet</p>
+</div>
+
+<footer>
+
+<section>
+  <div id="formas-de-pagamento">
+   <ul>
+   <h4>formas de pagamento</h4>
+    <li><img src="_imagens/visa.png"/></li>
+    <li><img src="_imagens/mastercard.png"/></li>
+    <li><img src="_imagens/amex.png"/></li>
+    <li><img src="_imagens/din.png"/></li>
+   </ul>
+  </div>
+</section>
+
+<section>
+  <div id="redes-sociais">
+   <ul>
+   <h4>Siga-nos nas redes sociais</h4>
+    <li><a href=""><img src="_imagens/face.png"/></a></li>
+    <li><a href=""><img src="_imagens/twitter.png"/></a></li>
+    <li><a href=""><img src="_imagens/insta.png"/></a></li>
+   </ul>
+  </div>
+</section>
+
+<p class="informacoes">&copy; COPYRIGHT 2016 TODOS OS DIREITOS RESERVADOS<br/>
+DOIS CORINTHIANOS COMÉRCIO VAREJISTA - CNPJ 14.058.038.0001.8</br>
+CEP 85-270-000 - PALMITAL - PARANÁ/PR </p>
+
+</footer>
+</div>
+</body>
+</html>
+<!--http://www.meudrink.com.br/listas/10-drinks-para-as-mulheres-->

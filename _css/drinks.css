@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+div#img-drink{
+  display:block;
+  float:left;
+}
+
+section nav#menu-de-bebidas{
+	display: block;
+	float: right;
+	margin-right: 30px;
+	margin-top: -50px;
+}
+
+nav#menu-de-bebidas h1{	
+    width: 300px;
+	background-color: #999;
+	font-size: 22pt;
+	padding: 3px;
+	font-family: fontlogo, sans-serif;
+	text-transform: uppercase;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+}
+
+section nav#menu-de-bebidas li{
+	list-style: none;
+	font-family: fontlogo, sans-serif;
+	font-size: 14pt;
+	text-align: right;
+}
+
+section nav#menu-de-bebidas a{
+	text-decoration: none;
+	color: #333;
+}
+
+section nav#menu-de-bebidas a:hover{
+	text-decoration: underline;
+	color: #00F;
+}
+
+h1.titulo-principal{
+	clear: both;
+	font-family: fontlogo, sans-serif;
+	background-color: #999;
+	padding: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+div.ingredientes{
+	width: 1200px;
+	height: 515px;
+	border-top: 1px solid #000;
+}
+
+div.ingredientes h1{
+	font-family: fontlogo, sans-serif;
+	background-color: #999;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16pt;
+	color: #fff;
+	width: 320px;
+	text-align: center;
+}
+
+div.ingredientes figure{
+	width: 300px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	padding: 5px;
+	background-color: #fff;
+	float: right;
+	margin-right: 100px;
+	margin-top: -20px;
+}
+
+div.ingredientes img{
+	width: 250px;
+}
+
+div.ingredientes figcaption{
+	font-family: fontlogo, sans-serif;
+	text-align: center;
+	color: #666;
+	padding: 8px;
+}
+
+div.ingredientes h2{
+	font-family: fontlogo, sans-serif;
+	text-transform: capitalize;
+	color: #333;
+}
+
+div.ingredientes li{
+	font-family: fontlogo, sans-serif;
+	color: #666;
+}
+
+div.ingredientes p{
+	font-family: fontlogo, sans-serif;
+}
+
+div.ingredientes p a{
+	color: #00F;
+}

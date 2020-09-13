@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel='icon' type="image/png" href="_imagens/escudo-3.png"/>
+  <title>Dois Corinthianos </title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" typt="text/css" href="_css/estilo.css"/>
+  <link rel="stylesheet" typt="text/css" href="_css/index.css"/>
+  <link rel="stylesheet" typt="text/css" href="_css/bebidas.css"/>
+  <script type="text/javascript" language="javascript" src="_javascript/funcoes.js"></script>
+
+</head>
+<body>
+<div id="interface">
+
+<header id="cabecalho">
+
+<img src="_imagens/escudo-4.png" width="1200" height="250"/>
+<img src="_imagens/beer.png" id="icone"/>
+
+<section>
+<div id="divBusca">
+      <form action="http://www.google.com.br/search" id="form-busca">
+		<img src="_imagens/search3.png" alt="Buscar..."/>
+		<input type="search" name="q" id="q" placeholder="Buscar..." onFocus="if(this.value=='Escreva aqui')this.value=''; " />
+		<button id="btnBusca">Buscar</button>
+      </form>
+</div>
+</section>
+
+<section>
+<nav id="menu-principal">
+  <ul>
+    <h1 id="h1-principal">Menu Principal</h1>
+      <li onMouseOver="mudaFoto('_imagens/home.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="index.html">Home</a></li>
+      <li onMouseOver="mudaFoto('_imagens/cifrao-1.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="precos.html">preços</a></li>
+      <li onMouseOver="mudaFoto('_imagens/drink-1.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="drinks.html">drinks</a></li>
+      <li onMouseOver="mudaFoto('_imagens/sobre.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="sobre-nos.html">Sobre Nós</a></li>
+      <li onMouseOver="mudaFoto('_imagens/ajuda.png')" onMouseOut="mudaFoto('_imagens/beer.png')"><a href="ajuda.html">Ajuda</a></li>
+ </ul>
+</nav>
+</section>
+
+</header>
+
+<aside id="lateral">
+  <section>
+  <nav id="menu-bebidas-com-alcool">
+     <h1>Menu de bebidas</h1>
+  <ul>  
+     <h3>Com álcool</h3>
+     <li><a href="vodka.html"><strong>Vodka</strong></a></li>
+     <li><a href="Wisky.html"><strong>Wisky</strong></a></li>
+     <li><a href="Cerveja.html"><strong>Cerveja</strong></a></li>
+     <li><a href="Pinga.html"><strong>Pinga</strong></a></li>
+     <li><a href="Conhaque.html"><strong>Conhaque</strong></a></li>
+  </ul>
+  </nav>
+  </section>
+  
+  <section>
+  <nav id="menu-bebidas-sem-alcool">
+  <ul>
+   <h3>Sem álcool</h3>
+  <li><a href="energetico.html"><strong>Energético</strong></a></li>
+  <li><a href="refrigerante.html"><strong>Refrigerante</strong></a></li>
+  <li><a href="agua.html"><strong>Água</strong></a></li>
+  </ul>
+  </nav>
+  </section>
+  </aside>
+
+
+  <section id="lateral-2">
+    <!-- Vodka smirnoff 750 ML -->
+    <figure class="bebidas">
+      <img src="_imagens/smirnoff.webp" width="150"/>
+      <figcaption>Smirnoff - 900 ml <br><br/>RS 18,50 </figcaption>
+    </figure>
+
+    <!-- Vodka smirnoff 250 ML -->
+    <figure class="bebidas">
+      <img src="_imagens/ice.jpg" width="150"/>
+      <figcaption>Smirnoff Ice - 275 ml<br/>RS 4,50 </figcaption>
+    </figure>
+
+    <figure class="bebidas">
+      <img src="_imagens/ice-limao.jpg" width="150"/>
+      <figcaption>Ice Limão - 275 ml<br/>RS 4,50 </figcaption>
+    </figure>
+    
+    <figure class="bebidas">
+      <img src="_imagens/ice-naracuja.png" width="150"/>
+      <figcaption>Ice Maracujá - 275 ml<br/>RS 4,50 </figcaption>
+    </figure>
+
+    <figure class="bebidas">
+      <img src="_imagens/ice-kiwi.jpg" width="150"/>
+      <figcaption>Ice Kiwi - 275<br><br/>RS 4,50 </figcaption>
+    </figure>
+    
+    <!-- Vodka askov 900 ML -->
+    <figure class="bebidas">
+      <img src="_imagens/askov.jpg" width="150"/>
+      <figcaption>Askov - 900 ml <br><br/>RS 17,50 </figcaption>
+    </figure>
+
+    <figure class="bebidas">
+      <img src="_imagens/askov-blue.jpg" width="150"/>
+      <figcaption>Askov Blueberry - 900 ml<br/>RS 17,50 </figcaption>
+    </figure>
+    
+    <figure class="bebidas">
+      <img src="_imagens/askov-frutas.webp" width="150"/>
+      <figcaption>Askov F. V. - 900 ml<br/>RS 17,50 </figcaption>
+    </figure>
+
+    <figure class="bebidas">
+      <img src="_imagens/askov-maracuja.webp" width="150"/>
+      <figcaption>Askov Maracujá - 900 ml<br/>RS 17,50 </figcaption>
+    </figure>
+
+    <!-- Vodka askov 275 ML -->
+    <figure class="bebidas">
+      <img src="_imagens/askov-275.jpg" width="150"/>
+      <figcaption>Askov - 275 ml <br><br/>RS 4,50 </figcaption>
+    </figure>
+
+    <figure class="bebidas">
+      <img src="_imagens/askov-blue-275.webp" width="150"/>
+      <figcaption>Askov Blueberry - 275 ml<br/>RS 4,50 </figcaption>
+    </figure>
+    
+    <figure class="bebidas">
+      <img src="_imagens/askov-frutas-275.jpg" width="150"/>
+      <figcaption>Askov F. V. - 275 ml<br/>RS 4,50 </figcaption>
+    </figure>
+
+    <figure class="bebidas">
+      <img src="_imagens/askov-naracuja-275.jpg" width="150"/>
+      <figcaption>Askov maracujá - 275 ml<br/>RS 4,50 </figcaption>
+    </figure>
+
+      <figure class="bebidas">
+        <img src="_imagens/ciroc-coconut.jpg" width="150"/>
+        <figcaption>Vodka Ciroc Coconut - 750 ml<br/>RS 32,50 </figcaption>
+      </figure>
+  
+      <figure class="bebidas">
+        <img src="_imagens/ciroc-red.webp" width="150"/>
+        <figcaption>Ciroc Red Berry - 750ml<br/>RS 32,50 </figcaption>
+      </figure>
+      
+      <figure class="bebidas">
+        <img src="_imagens/ciroc.jpg" width="150"/>
+        <figcaption>Ciroc Premium - 750ml<br/>RS 31,50 </figcaption>
+      </figure>
+  
+      <figure class="bebidas">
+        <img src="_imagens/ciroc-vanilla.png" width="150"/>
+        <figcaption>Ciroc French Vanilla - 1L<br/>RS 30,50 </figcaption>
+      </figure>
+    
+    <figure class="bebidas">
+      <img src="_imagens/absolut.jpg" width="150"/>
+      <figcaption>Absolut 1L<br><br/>RS 25,50 </figcaption>
+    </figure>
+  </section>
+
+  
+<footer>
+
+<section>
+  <div id="formas-de-pagamento">
+   <ul>
+   <h4>formas de pagamento</h4>
+    <li><img src="_imagens/visa.png"/></li>
+    <li><img src="_imagens/mastercard.png"/></li>
+    <li><img src="_imagens/visa.png"/></li>
+    <li><img src="_imagens/mastercard.png"/></li>
+   </ul>
+  </div>
+</section>
+
+<section>
+  <div id="redes-sociais">
+   <ul>
+   <h4>Siga-nos nas redes sociais</h4>
+    <li><a href=""><img src="_imagens/face.png"/></a></li>
+    <li><a href=""><img src="_imagens/twitter.png"/></a></li>
+    <li><a href=""><img src="_imagens/google.png"/></a></li>
+   </ul>
+  </div>
+</section>
+
+<p class="informacoes">&copy; COPYRIGHT 2016 TODOS OS DIREITOS RESERVADOS<br/>
+DOIS CORINTHIANOS COMÉRCIO VAREJISTA - CNPJ 14.058.038.0001.8</br>
+CEP 85-270-000 - PALMITAL - PARANÁ/PR </p>
+
+</footer>
+</div>
+</body>
+</html>
+<!--http://www.meudrink.com.br/listas/10-drinks-para-as-mulheres-->
