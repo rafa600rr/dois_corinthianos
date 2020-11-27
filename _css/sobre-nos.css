@@ -120,7 +120,7 @@ ul#album-de-fotos li{
 	border: 5px solid #FFF;
 	background-color: #FFF;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
 }
 
 ul#album-de-fotos li span{
@@ -134,7 +134,7 @@ ul#album-de-fotos li span{
 }
 
 ul#album-de-fotos li:hover{
-	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 ul#album-de-fotos li:hover span{
@@ -142,7 +142,7 @@ ul#album-de-fotos li:hover span{
 }
 
 ul#album-de-fotos li#foto-01{
-	background: url(../_imagens/img7.jpg) no-repeat;
+	background: url(../_imagens/batida-do-olympo.jpg) no-repeat;
 	background-position: center;
 	background-size: 480px 480px;
 	background-color: #FFF;
@@ -153,7 +153,7 @@ ul#album-de-fotos li#foto-01:hover{
 }
 
 ul#album-de-fotos li#foto-02{
-	background: url(../_imagens/img8.jpg) no-repeat;
+	background: url(../_imagens/batida-sonho-de-valsa.png) no-repeat;
     background-position: center;
 	background-size: 682px 682px;
 	background-color: #FFF;
@@ -164,7 +164,7 @@ ul#album-de-fotos li#foto-02:hover{
 }
 
 ul#album-de-fotos li#foto-03{
-	background: url(../_imagens/img9.jpg) no-repeat;
+	background: url(../_imagens/kriptonita1.jpg) no-repeat;
 	background-position: center;
 	background-size: 640px 640px;
 	background-color: #FFF;
@@ -175,7 +175,7 @@ ul#album-de-fotos li#foto-03:hover{
 }
 
 ul#album-de-fotos li#foto-04{
-	background: url(../_imagens/img11.jpg) no-repeat;
+	background: url(../_imagens/sensacao.jpg) no-repeat;
 	background-position: center;
 	background-size: 720px 720px;
 	background-color: #FFF;
@@ -186,7 +186,7 @@ ul#album-de-fotos li#foto-04:hover{
 }
 
 ul#album-de-fotos li#foto-05{
-	background: url(../_imagens/img12.jpg) no-repeat;
+	background: url(../_imagens/limonada.jpg) no-repeat;
 	background-position: center;
 	background-size: 600px 600px;
 	background-color: #FFF;
@@ -197,7 +197,7 @@ ul#album-de-fotos li#foto-05:hover{
 }
 
 ul#album-de-fotos li#foto-06{
-	background: url(../_imagens/img13.jpg) no-repeat;
+	background: url(../_imagens/lagoa-azul.jpg) no-repeat;
 	background-position: center;
 	background-size: 600px 600px;
 	background-color: #FFF;
@@ -208,7 +208,7 @@ ul#album-de-fotos li#foto-06:hover{
 }
 
 ul#album-de-fotos li#foto-07{
-	background: url(../_imagens/img14.jpg) no-repeat;
+	background: url(../_imagens/alegria-total.jpg) no-repeat;
 	background-position: center;
 	background-size: 600px 600px;
 	background-color: #FFF;

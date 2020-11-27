@@ -132,6 +132,7 @@ figure.bebidas img{
 
 figure.bebidas figcaption{
 	text-align: center;
-	font-family: fontlogo, sans-serif;
+  font-family: fontlogo, sans-serif;
+  font-size: 0.9em;
 	padding: 6px;
 }
